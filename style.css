@@ -22,8 +22,8 @@ html {
 }
 body {
   height: 100vh;
-  background-image: url(https://github.com/Rajni2002/profile_card.github.io/blob/main/images/bg-pattern-bottom.svg),
-    url(https://github.com/Rajni2002/profile_card.github.io/blob/main/images/bg-pattern-top.svg);
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
   background-position: right 55vw bottom 50vh, left 50vw top 50vh;
   background-repeat: no-repeat, no-repeat;
   background-color: var(--Dark-cyan);
