@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+/* Theme chromas 
+- Mobile: 375px
+- Desktop: 1440px*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /* Primary */
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+
+  /* Neutral */
+  --Dark-gray: hsl(0, 2%, 79%);
+
+  font-size: 14px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+body {
+  height: 100vh;
+  background-image: url(/images/bg-pattern-top.svg),
+    url(/images/bg-pattern-bottom.svg);
+  background-position: right 55vw bottom 50vh, left 50vw top 50vh;
+  background-repeat: no-repeat, no-repeat;
+  background-color: var(--Dark-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  width: 30vw;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.card-back {
+  width: 100%;
+  background: url(images/bg-pattern-card.svg) no-repeat;
+  background-size: cover;
+  height: 20vh;
+}
+.profile-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profile-photo {
+  position: absolute;
+  top: -55px;
+}
+.profile-photo img {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.details {
+  margin-top: 40%;
+  text-align: center;
+}
+.details h1 span {
+  font-weight: 400;
+  color: var(--Dark-grayish-blue);
+}
+.details p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: var(--Dark-grayish-blue);
+}
+.status {
+  border-top: 1px solid var(--Dark-gray);
+  width: 100%;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.status div {
+  text-align: center;
+}
+.status div p {
+  color: var(--Dark-grayish-blue);
+}
+@media(max-width:940px){
+    main{
+        width:60vw;
+    }
+}
+@media(max-width:700px){
+    main{
+        width:90vw;
+    }
+}
