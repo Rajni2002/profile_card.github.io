@@ -22,7 +22,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/Rajni2002/profile_card.github.io/blob/main/Screenshot%202021-09-17%20at%203.41.33%20PM.png)
 
 ### Links
 
