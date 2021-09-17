@@ -26,8 +26,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Frontend](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- Solution URL: [Frontend](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/html5-markup-css-properties-flexbox-desktopfirst-workflow-yH2_S2TwK)
+- [Live Site URL](https://rajni2002.github.io/profile_card.github.io/)
 
 ## My process
 
